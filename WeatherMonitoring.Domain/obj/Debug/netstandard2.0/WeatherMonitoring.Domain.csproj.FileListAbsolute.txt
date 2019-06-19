@@ -1,0 +1,9 @@
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\bin\Debug\netstandard2.0\WeatherMonitoring.Domain.deps.json
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\bin\Debug\netstandard2.0\WeatherMonitoring.Domain.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\bin\Debug\netstandard2.0\WeatherMonitoring.Domain.pdb
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.csprojAssemblyReference.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.csproj.CoreCompileInputs.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.AssemblyInfoInputs.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.AssemblyInfo.cs
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Domain\obj\Debug\netstandard2.0\WeatherMonitoring.Domain.pdb

@@ -1,0 +1,14 @@
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.deps.json
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.pdb
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\WeatherMonitoring.Domain.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\WeatherMonitoring.Domain.pdb
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.csprojAssemblyReference.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.AssemblyInfo.cs
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.csproj.CopyComplete
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.dll
+C:\Users\luiz_\source\repos\WeatherMonitoring\WeatherMonitoring.Infrastructure\obj\Debug\netstandard2.0\WeatherMonitoring.Infrastructure.pdb

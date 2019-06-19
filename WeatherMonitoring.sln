@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherMonitoring.Api", "WeatherMonitoring\WeatherMonitoring.Api.csproj", "{8BC056B1-37DB-4D3B-A2E2-073B3F334F22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherMonitoring.Infrastructure", "WeatherMonitoring.Infrastructure\WeatherMonitoring.Infrastructure.csproj", "{6584CD27-56D2-4CBC-84C5-E749A59F34FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherMonitoring.Domain", "WeatherMonitoring.Domain\WeatherMonitoring.Domain.csproj", "{3D132705-37C2-4CE9-AFD2-EC2EF0CA5F80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC056B1-37DB-4D3B-A2E2-073B3F334F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC056B1-37DB-4D3B-A2E2-073B3F334F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC056B1-37DB-4D3B-A2E2-073B3F334F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC056B1-37DB-4D3B-A2E2-073B3F334F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6584CD27-56D2-4CBC-84C5-E749A59F34FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6584CD27-56D2-4CBC-84C5-E749A59F34FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6584CD27-56D2-4CBC-84C5-E749A59F34FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6584CD27-56D2-4CBC-84C5-E749A59F34FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D132705-37C2-4CE9-AFD2-EC2EF0CA5F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D132705-37C2-4CE9-AFD2-EC2EF0CA5F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D132705-37C2-4CE9-AFD2-EC2EF0CA5F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D132705-37C2-4CE9-AFD2-EC2EF0CA5F80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CDBEB11-B75F-47EE-854A-DDB03DDD4773}
+	EndGlobalSection
+EndGlobal
