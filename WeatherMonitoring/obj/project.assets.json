@@ -2656,7 +2656,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -4425,6 +4425,9 @@
       "WeatherMonitoring.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "compile": {
           "bin/placeholder/WeatherMonitoring.Domain.dll": {}
         },
@@ -7229,10 +7232,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7255,7 +7258,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -12130,11 +12133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
+      "projectUniqueName": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
       "projectName": "WeatherMonitoring.Api",
-      "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
+      "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
       "packagesPath": "C:\\Users\\luiz_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\obj\\",
+      "outputPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12154,11 +12157,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
-              "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
+            "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
+              "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
             },
-            "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj"
+            "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj"
             }
           }
         }

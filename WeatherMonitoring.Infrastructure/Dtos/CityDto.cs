@@ -8,31 +8,32 @@ namespace WeatherMonitoring.Infrastructure.Dtos
     public class CityDto
     {
         [ExplicitKey]
-        public Guid? Id { get; }
+        public Guid? Id { get; private set; }
 
-        public string NameGuid { get; }
+        public string Name { get; private set; }
 
-        public bool Active { get; }
+        public bool Active { get; private set; }
 
         public CityDto(string nameGuid, bool active)
         {
             if(nameGuid.IsNullOrWhiteSpaces())
                 throw new ArgumentNullException(nameof(nameGuid));
 
-            NameGuid = nameGuid;
+            Id = Guid.NewGuid();
+            Name = nameGuid;
             Active = active;
         }
 
-        public CityDto(Guid? id, string nameGuid, bool active)
+        public CityDto(Guid? id, string name, bool active)
         {
             if (id == Guid.Empty)
                 throw new ArgumentNullException(nameof(id));
 
-            if (nameGuid.IsNullOrWhiteSpaces())
-                throw new ArgumentNullException(nameof(nameGuid));
+            if (name.IsNullOrWhiteSpaces())
+                throw new ArgumentNullException(nameof(name));
 
             Id = id;
-            NameGuid = nameGuid;
+            Name = name;
             Active = active;
         }
     }

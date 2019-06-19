@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj": {}
+    "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
+    "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj",
         "projectName": "WeatherMonitoring.Domain",
-        "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj",
+        "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj",
         "packagesPath": "C:\\Users\\luiz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\obj\\",
+        "outputPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [
@@ -57,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
+    "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj",
         "projectName": "WeatherMonitoring.Infrastructure",
-        "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\luiz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -84,8 +88,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
-                "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
+              "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
+                "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
               }
             }
           }
@@ -126,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj": {
+    "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
+        "projectUniqueName": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
         "projectName": "WeatherMonitoring.Api",
-        "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
+        "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\WeatherMonitoring.Api.csproj",
         "packagesPath": "C:\\Users\\luiz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring\\obj\\",
+        "outputPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -153,11 +157,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
-                "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
+              "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj": {
+                "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Domain\\WeatherMonitoring.Domain.csproj"
               },
-              "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\luiz_\\source\\repos\\WeatherMonitoring\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj"
+              "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\luiz_\\Documents\\GitHub\\MonitoringTemperature\\WeatherMonitoring.Infrastructure\\WeatherMonitoring.Infrastructure.csproj"
               }
             }
           }

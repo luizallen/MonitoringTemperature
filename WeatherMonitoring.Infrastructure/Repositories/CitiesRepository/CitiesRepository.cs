@@ -24,20 +24,20 @@ namespace WeatherMonitoring.Infrastructure.Repositories.CitiesRepository
         {
             var query = new SelectBuilder()
                 .Select("Id, Name, Active")
-                .From("Cities")
+                .From("City")
                 .Where("Id = @id")
                 .Build();
 
             using (SqlConnection connection = new SqlConnection(SqlClientFactory.GetConnection()))
             {
                 connection.Open();
-                var cities = await connection.QueryAsync<City>(query, id);
+                var cities = await connection.QueryAsync<City>(query, new { id });
 
                 return cities.FirstOrDefault();
             }
         }
 
-        public async Task CreateCity(string cityName)
+        public async Task<CityDto> CreateCity(string cityName)
         {
             var city = CreateCityDto(cityName, true);
 
@@ -46,6 +46,8 @@ namespace WeatherMonitoring.Infrastructure.Repositories.CitiesRepository
                 connection.Open();
                 await connection.InsertAsync(city);
             }
+
+            return city;
         }
 
         public async Task DeleteCity(City city)

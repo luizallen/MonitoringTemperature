@@ -35,6 +35,7 @@ namespace WeatherMonitoring.Api
         public void RegisterModules()
         {
             _container.RegisterModule<InfrastructureModule>(Configuration);
+            _container.RegisterModule<ApiModule>(Configuration);
 
             _container.Verify();
         }

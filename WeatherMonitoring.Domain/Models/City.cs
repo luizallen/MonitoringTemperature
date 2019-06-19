@@ -1,15 +1,19 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using WeatherMonitoring.Domain.Extensions;
 
 namespace WeatherMonitoring.Domain.Models
 {
     public class City
     {
-        public Guid Id { get; }
+        public Guid Id { get; private set; }
 
-        public string Name { get; }
+        [JsonProperty("localidade")]
+        public string Name { get; private set; }
 
-        public bool Active { get; }
+        public bool Active { get; private set; }
+
+        public City() {}
 
         public City(Guid id, string name, bool active)
         {

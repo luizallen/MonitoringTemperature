@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using WeatherMonitoring.Api.Services;
 using WeatherMonitoring.Domain.Extensions;
 using WeatherMonitoring.Infrastructure.Repositories.CitiesRepository;
 
@@ -12,9 +13,14 @@ namespace WeatherMonitoring.Api.Controllers
     {
         public ICitiesRepository CitiesRepository { get; }
 
-        public CitiesController(ICitiesRepository citiesRepository)
+        public ICepServices CepServices { get; }
+
+        public CitiesController(
+            ICitiesRepository citiesRepository,
+            ICepServices cepServices)
         {
             CitiesRepository = citiesRepository ?? throw new ArgumentNullException(nameof(citiesRepository));
+            CepServices = cepServices ?? throw new ArgumentNullException(nameof(cepServices));
         }
         
         [HttpPost]
@@ -24,9 +30,9 @@ namespace WeatherMonitoring.Api.Controllers
             if (cityName.IsNullOrWhiteSpaces())
                 return BadRequest("Invalid City Name");
 
-            await CitiesRepository.CreateCity(cityName);
+            var createdCity = await CitiesRepository.CreateCity(cityName);
 
-            return Ok();
+            return Ok(createdCity);
         }
 
         [HttpGet]
@@ -59,6 +65,23 @@ namespace WeatherMonitoring.Api.Controllers
             await CitiesRepository.DeleteCity(city);
 
             return Ok();
+        }
+
+        [HttpPost]
+        [Route("by_cep/{cep}")]
+        public async Task<IActionResult> AddCityByCep(int cep)
+        {
+            if (cep < 10000000)
+                return BadRequest("Invalid Cep");
+
+            var city = await CepServices.GetCityByCep(cep);
+
+            if (city == null)
+                return BadRequest("City does not exists in this zip code");
+
+            var createdCity = await CitiesRepository.CreateCity(city.Name);
+
+            return Ok(createdCity);
         }
     }
 }
